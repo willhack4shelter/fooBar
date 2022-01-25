@@ -1,0 +1,25 @@
+/************************** TAG selectors **************************/
+
+body {
+	background-color: grey;
+}
+
+/************************* Class selectors *************************/
+
+.footer_menu a {
+	color: black;
+	font-family: system-ui;
+	text-decoration: none;
+	transition: .75s;
+}
+
+.footer_menu a:hover {
+	color: white;
+	background-color: black;
+	transition: .75s;
+}
+
+.mainTitel {
+	color: black;
+	font: italic bold 32px cursive;
+}

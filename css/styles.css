@@ -5,21 +5,24 @@ body {
 }
 
 /************************* Class selectors *************************/
+.div_titel {
+	border: solid;
+}
 
-.footer_menu a {
+.div_footerMenu a {
 	color: black;
 	font-family: system-ui;
 	text-decoration: none;
 	transition: .75s;
 }
 
-.footer_menu a:hover {
+.div_footerMenu a:hover {
 	color: white;
 	background-color: black;
 	transition: .75s;
 }
 
-.mainTitel {
+.div_footerMenu {
 	color: black;
 	font: italic bold 32px cursive;
 }

@@ -1,28 +1,84 @@
 /************************** TAG selectors **************************/
-
 body {
-	background-color: grey;
+	background-color: #333;
+	background-image: url(../images/background-title.png);
+	background-opacity: 0.25;
+	background-repeat-x: no-repeat;
+	background-size: cover;
+	margin: 0;
 }
 
 /************************* Class selectors *************************/
-.div_titel {
-	border: solid;
+
+.grid {
+	display: grid;
+	grid-template: auto 2fr 5em / 1fr;
+	width: 100vw;
+	height: 100vh;
 }
 
-.div_footerMenu a {
+.div-title{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 350px;
+}
+
+.h1-title {
 	color: black;
-	font-family: system-ui;
+	display: inline;
+	font-family: 'Supermercado One', cursive;
+	font-size: 3em;
+	margin: auto auto 0;
+	width: min-content;
+}
+
+.h3-main-content-01 {
+	margin: 0em;
+}
+
+.div-menu{
+	margin: 0em auto 0em;
+	text-align: center;
+	width: 350px;
+}
+.div-menu a {
+	border-top: solid;
+	border-color: #df2c2c;
+	color: black;
+	font-family: 'Supermercado One', cursive;
+	font-size: 1.25em;
 	text-decoration: none;
 	transition: .75s;
 }
 
-.div_footerMenu a:hover {
-	color: white;
-	background-color: black;
-	transition: .75s;
+.div-menu a:hover {
+	text-decoration: underline;
 }
 
-.mainTitel {
-	color: black;
-	font: italic bold 32px cursive;
+.div-content {
+	background-color: #ebebeb;
+	grid-row: 2;
+	grid-column: span 3;
+	margin-top: .5em;
+	padding: 1em;
+}
+
+.div-main-content-01 {
+	height: max-content;
+	width: 50%;
+}
+
+.div-main-content-01 p {
+	margin-bottom: 0em;
+}
+
+.div-footer {
+	
+}
+
+.p-title {
+	display: inline-block;
+	font-family: 'Supermercado One', cursive;
+	width: min-content;
 }

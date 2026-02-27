@@ -1,40 +1,57 @@
-<!Doctype html>
-<html>
+<!doctype html>
+<html lang="de">
 	<head>
-		<title>g33ksp34k</title>
+		<title>geekspeak | Resources</title>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Kuratierten Ressourcen für Webentwicklung, Lernen und Produktivität auf geekspeak entdecken.">
 		<link rel="stylesheet" href="../css/styles.css">
 		<link rel="icon" href="../images/favicon.ico">
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Supermercado+One&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<main class="grid">
-			<div class="div-title">
+			<header class="div-title">
 				<h1 class="h1-title">geekspeak</h1>
 				<p class="p-title">since 1337</p>
-				<div class="div-menu">
-					<a href="../index.html"> home </a>
-					<a href="../html/blog.html"> blog </a>
-					<a href="../html/resources.html"> resources </a>
-					<a href="../html/contact.html"> contact </a>
+				<nav class="div-menu" aria-label="Hauptnavigation">
+					<a href="../index.html">home</a>
+					<a href="../html/blog.html">blog</a>
+					<a class="is-active" href="../html/resources.html">resources</a>
+					<a href="../html/contact.html">contact</a>
+				</nav>
+			</header>
+			<section class="div-content">
+				<h2>Top Ressourcen</h2>
+				<div class="content-grid">
+					<article class="card">
+						<h3>Dokumentation</h3>
+						<ul class="list-clean">
+							<li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a></li>
+							<li><a href="https://devdocs.io" target="_blank" rel="noopener noreferrer">DevDocs</a></li>
+							<li><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+						</ul>
+					</article>
+					<article class="card">
+						<h3>Community & Lernen</h3>
+						<ul class="list-clean">
+							<li><a href="https://dev.to" target="_blank" rel="noopener noreferrer">DEV Community</a></li>
+							<li><a href="https://fonts.google.com/" target="_blank" rel="noopener noreferrer">Google Fonts</a></li>
+							<li><a href="https://cdnjs.com/" target="_blank" rel="noopener noreferrer">cdnjs</a></li>
+						</ul>
+					</article>
+					<article class="card">
+						<h3>Nützliche Inspiration</h3>
+						<ul class="list-clean">
+							<li><a href="https://dev.to/madza/17-killer-websites-you-should-use-to-increase-productivity-2enk" target="_blank" rel="noopener noreferrer">17 Produktivitäts-Webapps</a></li>
+							<li><a href="https://youtu.be/-qOe8lBAChE/" target="_blank" rel="noopener noreferrer">Grid-Hintergrund Tutorial</a></li>
+						</ul>
+					</article>
 				</div>
-			</div>
-			<div class="div-content">
-			<h3>Ressources</h3>
-			<div class="div-ressources">
-			<p><a href="https://devdocs.io">devdocs.io<a></p>
-			<p><a href="https://developer.mozilla.org/">MDN Web Docs</a></p>
-			<p><a href="https://www.w3schools.com/">W3 Schools<a>
-			<p><a href="https://www.dev.to">DEV to<a>
-			<p><a href="https://dev.to/madza/17-killer-websites-you-should-use-to-increase-productivity-2enk">17 Web Apps<a>
-			<p><a href="https://fonts.google.com/">google fonts</a>
-			<p><a href="https://cdnjs.com/">cdn</a>
-			<h3>Tuts</h3>
-			<p><a href="https://youtu.be/-qOe8lBAChE/">grid background tut</a>
-			</div>
-			</div>
-		</div>
+			</section>
+			<footer class="site-footer">Qualität > Quantität: lieber wenige, aber starke Ressourcen.</footer>
+		</main>
 	</body>
 </html>

@@ -64,19 +64,19 @@ a {
 }
 
 .div-menu {
+	border-top: 2px solid var(--brand);
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1.2rem;
 	justify-content: center;
 	margin: 0.3rem auto;
+	padding-top: 0.2rem;
 }
 
 .div-menu a {
-	border-top: 2px solid var(--brand);
 	color: #ffffff;
 	font-family: 'Supermercado One', cursive;
 	font-size: 1.15rem;
-	padding-top: 0.2rem;
 	text-decoration: none;
 	text-underline-offset: 0.22em;
 	transition: color 0.2s ease;
